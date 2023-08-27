@@ -1,0 +1,21 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/watercolor-background-with-hand-drawn-elements_52683-57275.jpg?t=st=1692691335~exp=1692691935~hmac=70ca9a25dac83c318b357c3dd08265c8a16bb687e6c01b113b46e6beb8354a2b');
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 50px;
+  background-color: aqua;
+}

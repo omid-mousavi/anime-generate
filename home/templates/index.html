@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Neko generator</title>
+  </head>
+  <body>
+    <div class="my_div">
+      <main>
+        <section>
+          <figure>
+            <figcaption><em><a href="artist/">INFO</a></em></figcaption>
+            <img class="image" src="{{res}}" alt="waifu">
+          </figure>
+        </section>
+        <section>
+          <form action="/home" method="get">
+            <button>Generate new one!</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

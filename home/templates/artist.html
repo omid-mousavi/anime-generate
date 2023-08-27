@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>information</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <p class="item">Artist: <em><a href="{{artist_ref}}">{{nam}}</a></em></p>
+        <p class="item">Source: <em><a href="{{sr}}">{{sr}}</a></em></p>
+      </section>
+    </main>
+  </body>
+</html>
