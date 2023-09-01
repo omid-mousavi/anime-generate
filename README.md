@@ -1,2 +1,3 @@
 # anime-generate
-I used public free API to work with Django. this will generate a anime anytime you open the /home directory and etc..
+I just randomly found a free public API to work with Django, and personaly i'm not into these stuff.
+This will generate a picture anytime you open the /home directory, and there is a simple button that redirects the user to get know about artist and etc...
